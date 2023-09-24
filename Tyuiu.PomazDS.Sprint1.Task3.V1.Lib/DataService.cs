@@ -12,8 +12,8 @@ namespace Tyuiu.PomazDS.Sprint1.Task3.V1.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            const double pi = 3.14159;
-            return pi * (r * r) * h;
+
+            return Math.Round(Math.PI * (r * r) * h, 3);
         }
     }
 }

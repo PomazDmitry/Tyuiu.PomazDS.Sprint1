@@ -15,7 +15,7 @@ namespace Tyuiu.PomazDS.Sprint1.Task3.V1.Test
             double r = 2;
             double h = 4;
             var res = ds.CylinderVolume(r, h);
-            Assert.AreEqual(50.26544, res);
+            Assert.AreEqual(50.265, res);
         }
     }
 }
