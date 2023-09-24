@@ -16,7 +16,7 @@ namespace Tyuiu.PomazDS.Sprint1.Task4.V5.Test
             x = 25;
             y = 2;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(0.03786, Math.Round(res, 5));
+            Assert.AreEqual(0.038, res);
             
         }
     }

@@ -35,10 +35,11 @@ namespace Tyuiu.PomazDS.Sprint1.Task4.V5
             double x, y;
 
             Console.WriteLine("Введите значение x:");
-            x = Convert.ToDouble(Console.ReadLine());
+            x = double.Parse(Console.ReadLine());
+
 
             Console.WriteLine("Введите значение y:");
-            y = Convert.ToDouble(Console.ReadLine());
+            y = double.Parse(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

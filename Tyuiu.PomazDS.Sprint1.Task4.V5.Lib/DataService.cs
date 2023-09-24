@@ -12,7 +12,7 @@ namespace Tyuiu.PomazDS.Sprint1.Task4.V5.Lib
     {
         public double Calculate(double x, double y)
         {
-            return 1 / Math.Abs(x + Math.Sqrt(y));
+            return Math.Round(1 / Math.Abs(x + Math.Sqrt(y)), 3);
         }
     }
 }
